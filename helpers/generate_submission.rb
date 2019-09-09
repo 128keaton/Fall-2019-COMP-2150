@@ -28,7 +28,7 @@ def zip_assignment_dir(base_dir, assignment, output_dir)
     end
 
     write_zip_file(base_dir, output_file)
-    abs_output_path
+    abs_output_path.gsub(/ /, '\ ')
   end
 end
 
@@ -46,12 +46,11 @@ def get_assignments(base_dir)
   assignments
 end
 
-def prompt_for_assignment(base_dir)
-  prompt = TTY::Prompt.new
+def prompt_for_assignment(prompt, base_dir)
   assignments = get_assignments(base_dir)
 
   menu_choices = assignments.map do |assignment|
-    formatted_path = "#{base_dir.sub '../', ''}/#{assignment}"
+    formatted_path = "#{base_dir.sub '../', ''}/#{assignment}".gsub(/ /, '\ ')
     formatted_name = "#{assignment.titleize} (at #{formatted_path})"
     path = "#{base_dir}/#{assignment}"
 
@@ -71,22 +70,14 @@ def make_assignment_structure(assignment, temp_dir)
   FileUtils.cp_r "../#{assignment}", "#{temp_dir}/#{structure}"
 end
 
-def stupid_fun
-  a = Artii::Base.new
-  puts a.asciify('COMP 2150 SUX')
-end
-
-def main
-  stupid_fun
-  prompt = TTY::Prompt.new
-
+def main(prompt)
   generated_dir = '../assignments/'
   base_dir = '../src/mem/kbrleson'
   temp_dir = Dir.mktmpdir('generate-assignment', '/tmp')
 
   Dir.mkdir(generated_dir) unless File.exist? generated_dir
 
-  assignment = prompt_for_assignment(base_dir)
+  assignment = prompt_for_assignment(prompt, base_dir)
 
   make_assignment_structure(assignment, temp_dir)
   written_to = zip_assignment_dir(temp_dir, assignment, generated_dir)
@@ -95,4 +86,14 @@ def main
 end
 
 
-main
+begin
+  prompt = TTY::Prompt.new
+
+  artii = Artii::Base.new
+  puts artii.asciify('COMP 2150 SUX')
+
+  main(prompt)
+rescue Interrupt
+  puts
+  puts 'Bye!'
+end
