@@ -22,10 +22,7 @@ def zip_assignment_dir(base_dir, assignment, output_dir)
     output_file = "#{assignment_name}.zip"
     abs_output_path = File.absolute_path("#{output_dir}/#{output_file}")
 
-
-    if File.exist?(abs_output_path)
-      File.delete(output_file)
-    end
+    File.delete(output_file) if File.exist?(abs_output_path)
 
     write_zip_file(base_dir, output_file)
     abs_output_path.gsub(/ /, '\ ')
@@ -39,9 +36,7 @@ def get_assignments(base_dir)
     assignments = Dir.glob('*').select { |f| File.directory? f }
   end
 
-  assignments.empty? do
-    prompt.error('No assignments found!')
-  end
+  prompt.error('No assignments found!') if assignments.empty?
 
   assignments
 end
@@ -82,7 +77,9 @@ def main(prompt)
   make_assignment_structure(assignment, temp_dir)
   written_to = zip_assignment_dir(temp_dir, assignment, generated_dir)
 
+  puts '==================================================='
   prompt.ok("Wrote zip file to '#{written_to}'")
+  puts
 end
 
 
@@ -90,7 +87,8 @@ begin
   prompt = TTY::Prompt.new
 
   artii = Artii::Base.new
-  puts artii.asciify('COMP 2150 SUX')
+  puts artii.asciify('COMP 2150')
+  puts '==================================================='
 
   main(prompt)
 rescue Interrupt
