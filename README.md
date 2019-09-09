@@ -8,18 +8,23 @@
 Make sure that you have the required Rubygems:
 
 ```
-   cd helpers && bundle install
+cd helpers && bundle install
 ```
 
 Change the `base_dir` variable to whatever package format you're using in `generate_submission.rb`:
 
 ```ruby
-  # THIS LINE HERE 
-  base_dir = '../src/mem/kbrleson'
+# THIS LINE HERE 
+base_dir = '../src/mem/kbrleson'
 ```
 
 Run the main bash script from the root directory:
 
 ```
-  submit.sh
+submit.sh
 ```
+
+## Assignments
+### Assignment 1
+* Status: Submitted
+* Grade: Unknown
