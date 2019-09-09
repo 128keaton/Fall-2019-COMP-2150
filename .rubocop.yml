@@ -1,0 +1,4 @@
+GlobalVars:
+  AllowedVariables:
+    - base_dir
+    - assignments
