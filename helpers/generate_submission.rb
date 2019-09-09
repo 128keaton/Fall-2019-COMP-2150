@@ -63,9 +63,8 @@ def make_assignment_structure(assignment, temp_dir)
   FileUtils.cp_r "../#{assignment}", "#{temp_dir}/#{structure}"
 end
 
-def main(prompt)
+def main(prompt, base_dir)
   generated_dir = '../assignments/'
-  base_dir = '../src/mem/kbrleson'
   temp_dir = Dir.mktmpdir('generate-assignment', '/tmp')
 
   Dir.mkdir(generated_dir) unless File.exist? generated_dir
@@ -81,13 +80,15 @@ def main(prompt)
 end
 
 begin
+  # THIS LINE HERE
+  base_dir = '../src/mem/kbrleson'
   prompt = TTY::Prompt.new
 
   artii = Artii::Base.new
   puts artii.asciify('COMP 2150')
   puts '==================================================='
 
-  main(prompt)
+  main(prompt, base_dir)
 rescue Interrupt
   puts
   puts 'Bye!'
