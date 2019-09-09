@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require 'rubygems'
-require 'zip'
 require 'readline'
 require 'tty-prompt'
 require 'tmpdir'
@@ -9,7 +8,6 @@ require 'fileutils'
 require 'artii'
 require 'titleize'
 require_relative 'zip_file_generator'
-
 
 def write_zip_file(from_dir, output_file)
   zipped_assignment = ZipFileGenerator.new(from_dir, output_file)
@@ -81,7 +79,6 @@ def main(prompt)
   prompt.ok("Wrote zip file to '#{written_to}'")
   puts
 end
-
 
 begin
   prompt = TTY::Prompt.new
