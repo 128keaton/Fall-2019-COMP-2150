@@ -8,7 +8,8 @@ import java.util.Scanner;
 public class Question4 {
 
     public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
+        @SuppressWarnings("resource")
+		Scanner scanner = new Scanner(System.in);
 
         System.out.print("Input six non-negative digits: ");
         reverseAndPrint(scanner.nextInt());

@@ -6,7 +6,6 @@ package mem.kbrleson.assignment1.Question6;
 import java.util.Arrays;
 import java.util.Objects;
 
-@SuppressWarnings("WeakerAccess")
 public class GroceryList {
     private GroceryItem[] groceryItems = new GroceryItem[10];
 

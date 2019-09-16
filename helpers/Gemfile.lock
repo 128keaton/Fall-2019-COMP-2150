@@ -20,6 +20,7 @@ GEM
       wisper (~> 2.0.0)
     tty-screen (0.7.0)
     wisper (2.0.0)
+    zip (2.0.2)
 
 PLATFORMS
   ruby
@@ -28,6 +29,7 @@ DEPENDENCIES
   artii
   titleize
   tty-prompt
+  zip
 
 BUNDLED WITH
-   2.0.1
+   2.0.2

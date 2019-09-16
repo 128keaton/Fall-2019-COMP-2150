@@ -3,7 +3,6 @@ package mem.kbrleson.assignment1.Question6;
 // kbrleson@memphis.edu
 // Sept 8th, 2019
 
-@SuppressWarnings("WeakerAccess")
 public class GroceryItem {
     public String name;
 

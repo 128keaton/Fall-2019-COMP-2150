@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74981944-1e5b-4508-ac56-fa212a68398a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question1/Substances.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question1/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/ParkedCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/ParkingMeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/ParkingTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/PoliceOfficer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/Gemfile.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/ParkingTicket.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding>
                 <element signature="e#1023#1024#0" expanded="true" />
                 <element signature="e#1075#1076#0" expanded="true" />
@@ -94,19 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/ParkingMeter.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/helpers/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding>
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -124,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="31" column="89" selection-start-line="31" selection-start-column="89" selection-end-line="31" selection-end-column="89" />
+            <state relative-caret-position="567">
+              <caret line="27" selection-start-line="27" selection-end-line="28" selection-end-column="110" />
             </state>
           </provider>
         </entry>
@@ -137,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment1/Question6/GroceryItem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="434">
-              <caret line="30" column="90" lean-forward="true" selection-start-line="30" selection-start-column="90" selection-end-line="30" selection-end-column="127" />
+              <caret line="30" column="90" selection-start-line="30" selection-start-column="90" selection-end-line="30" selection-end-column="127" />
             </state>
           </provider>
         </entry>
@@ -145,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/ParkedCar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="9" column="89" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="109" />
+            <state relative-caret-position="168">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#558#559#0" expanded="true" />
                 <element signature="e#594#595#0" expanded="true" />
@@ -187,7 +172,6 @@
         <option value="$PROJECT_DIR$/helpers/.rubocop.yml" />
         <option value="$PROJECT_DIR$/helpers/zip_file_generator.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/helpers/Gemfile" />
         <option value="$PROJECT_DIR$/submit.sh" />
         <option value="$PROJECT_DIR$/helpers/generate_submission.rb" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -198,6 +182,7 @@
         <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/ParkingMeter.java" />
         <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/PoliceOfficer.java" />
         <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/Test.java" />
+        <option value="$PROJECT_DIR$/helpers/Gemfile" />
       </list>
     </option>
   </component>
@@ -220,6 +205,11 @@
             <path>
               <item name="Fall-2019-COMP-2150" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fall-2019-COMP-2150" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fall-2019-COMP-2150" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fall-2019-COMP-2150" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Fall-2019-COMP-2150" type="b2602c69:ProjectViewProjectNode" />
@@ -261,14 +251,6 @@
               <item name="kbrleson" type="462c0819:PsiDirectoryNode" />
               <item name="assignment2" type="462c0819:PsiDirectoryNode" />
               <item name="Question1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fall-2019-COMP-2150" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fall-2019-COMP-2150" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="kbrleson" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment2" type="462c0819:PsiDirectoryNode" />
-              <item name="Question2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -409,7 +391,7 @@
       <option name="presentableId" value="Default" />
       <updated>1567995489033</updated>
       <workItem from="1567995490601" duration="15124000" />
-      <workItem from="1568598303004" duration="3706000" />
+      <workItem from="1568598303004" duration="4890000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1568010581720</created>
@@ -439,11 +421,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568011456830</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adds assignment 2">
+      <created>1568603093755</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568603093755</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18830000" />
+    <option name="totallyTimeSpent" value="20014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1104" height="1108" extended-state="0" />
@@ -451,14 +440,14 @@
     <layout>
       <window_info id="Capture Tool" />
       <window_info id="Image Layers" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31698114" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31698114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956952" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -467,7 +456,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Heroku" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49960938" weight="0.323" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49960938" visible="true" weight="0.323" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50039065" side_tool="true" weight="0.32336578" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -490,7 +479,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Adds a submit script to launch the ruby script" />
     <MESSAGE value="Cleaned up a bit of the submission code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up a bit of the submission code" />
+    <MESSAGE value="Adds assignment 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds assignment 2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/Main.java" />
@@ -522,13 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1722">
           <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -567,17 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/ParkedCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="9" column="89" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="109" />
-          <folding>
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/ParkingMeter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -596,7 +568,7 @@
     <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/ParkingTicket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
             <element signature="e#1023#1024#0" expanded="true" />
             <element signature="e#1075#1076#0" expanded="true" />
@@ -659,7 +631,7 @@
     <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment1/Question6/GroceryItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
-          <caret line="30" column="90" lean-forward="true" selection-start-line="30" selection-start-column="90" selection-end-line="30" selection-end-column="127" />
+          <caret line="30" column="90" selection-start-line="30" selection-start-column="90" selection-end-line="30" selection-end-column="127" />
         </state>
       </provider>
     </entry>
@@ -676,8 +648,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" column="89" selection-start-line="31" selection-start-column="89" selection-end-line="31" selection-end-column="89" />
+        <state relative-caret-position="567">
+          <caret line="27" selection-start-line="27" selection-end-line="28" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/ParkedCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

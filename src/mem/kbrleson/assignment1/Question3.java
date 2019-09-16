@@ -7,7 +7,8 @@ import java.util.Scanner;
 
 public class Question3 {
     public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
+        @SuppressWarnings("resource")
+		Scanner scanner = new Scanner(System.in);
 
         System.out.print("Input 1st integer: ");
         int x = scanner.nextInt();

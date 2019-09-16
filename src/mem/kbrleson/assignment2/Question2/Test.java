@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        @SuppressWarnings("resource")
+		Scanner scanner = new Scanner(System.in);
         double timePurchased, timeParked;
 
         System.out.print("Enter the parking time purchased (mins): ");

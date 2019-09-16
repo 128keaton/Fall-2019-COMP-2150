@@ -5,7 +5,6 @@ package mem.kbrleson.assignment1;
 
 import java.util.Arrays;
 
-@SuppressWarnings("WeakerAccess")
 public class Question5 {
 
     public static void main(String[] args){
