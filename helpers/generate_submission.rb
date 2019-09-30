@@ -56,11 +56,13 @@ end
 
 def make_assignment_structure(assignment, temp_dir)
   structure = assignment.split('/')[0...-1].join('/')
+  assignment_folder = assignment.split('/')[-1]
   # Make nested Java package structure
-  FileUtils.mkdir_p("#{temp_dir}/#{structure}")
+
+  FileUtils.mkdir_p("#{temp_dir}/#{assignment_folder}/#{structure}")
 
   # Copy package into base temporary package
-  FileUtils.cp_r "../#{assignment}", "#{temp_dir}/#{structure}"
+  FileUtils.cp_r "../#{assignment}", "#{temp_dir}/#{assignment_folder}/#{structure}"
 end
 
 def main(prompt, base_dir)
