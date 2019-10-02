@@ -1,3 +1,6 @@
+// kbrleson
+// October 2nd, 2019
+
 package mem.kbrleson.assignment4;
 
 interface A1 {

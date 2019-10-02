@@ -7,7 +7,6 @@ package mem.kbrleson.assignment4;
 import mem.kbrleson.assignment4.interfacesQ4.InterfaceOne;
 import mem.kbrleson.assignment4.interfacesQ4.InterfaceTwo;
 
-
 // Define class that implements both 'InterfaceOne' and 'InterfaceTwo'
 class ImplementedInterfaces implements InterfaceOne, InterfaceTwo {
     @Override
