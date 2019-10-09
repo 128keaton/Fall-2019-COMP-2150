@@ -5,14 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74981944-1e5b-4508-ac56-fa212a68398a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment4/interfacesQ4/InterfaceOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment4/interfacesQ4/InterfaceTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/keatonburleson.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/keatonburleson.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,102 +34,101 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#0#680#0" expanded="true" />
-                <element signature="e#97#98#0" expanded="true" />
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#662#663#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-              <folding>
-                <element signature="e#185#186#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment4/interfacesQ4/InterfaceOne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment4/interfacesQ4/InterfaceTwo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question4.java">
+        <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/DynamicBindingDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/Field.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
-                <element signature="e#0#976#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/FieldInheritanceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/FieldSub.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/PolyDemosimple.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/TestD11.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="43" selection-start-column="43" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/TestOverrideDerived.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/TestOverrideInheritDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question5.java">
+        <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/PolymorphismDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
-              <folding>
-                <element signature="e#1670#1671#0" expanded="true" />
-                <element signature="e#1703#1704#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="525">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/TestOverrideBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -164,25 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment1/Question2.java" />
-        <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment1/Question3.java" />
-        <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment1/Question4.java" />
-        <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment1/Question5.java" />
-        <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment1/Question6/GroceryItem.java" />
-        <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment1/Question6/GroceryList.java" />
-        <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment1/Question6/TestGroceryList.java" />
-        <option value="$PROJECT_DIR$/generate-submission.rb" />
-        <option value="$PROJECT_DIR$/helpers/generate-submission.rb" />
-        <option value="$PROJECT_DIR$/helpers/.rubocop.yml" />
-        <option value="$PROJECT_DIR$/helpers/zip_file_generator.rb" />
-        <option value="$PROJECT_DIR$/submit.sh" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question1/Test.java" />
-        <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question1/Substances.java" />
-        <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/ParkedCar.java" />
-        <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/ParkingTicket.java" />
-        <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/ParkingMeter.java" />
-        <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/PoliceOfficer.java" />
         <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/Test.java" />
         <option value="$PROJECT_DIR$/helpers/Gemfile" />
         <option value="$PROJECT_DIR$/src/mem/kbrleson/lab1/ShoppingCartPrinter.java" />
@@ -202,12 +174,38 @@
         <option value="$PROJECT_DIR$/helpers/generate_submission.rb" />
         <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment3/Main.java" />
         <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question1.java" />
-        <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question2.java" />
-        <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question3.java" />
         <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question4/InterfaceOne.java" />
         <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question4/InterfaceTwo.java" />
         <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question4.java" />
         <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question5.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question3.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question2.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture5/CircleWithException.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture5/DivideByZeroWithExceptionHandling.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture5/Quotient.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture5/QuotientWithException.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture5/QuotientWithIf.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture5/QuotientWithMethod.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture5/TestCircleWithException.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture5/TestCircleWithCustomException.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture3/PolyDemosimple.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture3/TestOverloadingBetweenClass.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture3/BasicInheritanceDemo.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture3/ConstructorChainDemo.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture3/ConstructorNoSuper.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/BasicInheritance.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/BasicInheritanceDemo.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/Cartoon.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/DynamicBindingDemo2.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/Field.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/FieldInheritanceTest.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/FieldSub.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/PolyDemosimple.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/TestD11.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/TestOverrideDerived.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/TestOverrideBase.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/TestOverrideInheritDemo.java" />
+        <option value="$PROJECT_DIR$/src/mem/kbrleson/lecture3/PolymorphismDemo.java" />
       </list>
     </option>
   </component>
@@ -217,7 +215,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="813" />
     <option name="y" value="23" />
     <option name="width" value="1107" />
@@ -231,8 +229,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,7 +264,115 @@
               <item name="Fall-2019-COMP-2150" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="kbrleson" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment4" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fall-2019-COMP-2150" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fall-2019-COMP-2150" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kbrleson" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture3" type="462c0819:PsiDirectoryNode" />
+              <item name="supplemental" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fall-2019-COMP-2150" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fall-2019-COMP-2150" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kbrleson" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture3" type="462c0819:PsiDirectoryNode" />
+              <item name="supplemental" type="462c0819:PsiDirectoryNode" />
+              <item name="BasicInheritance.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Fall-2019-COMP-2150" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fall-2019-COMP-2150" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kbrleson" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture3" type="462c0819:PsiDirectoryNode" />
+              <item name="supplemental" type="462c0819:PsiDirectoryNode" />
+              <item name="BasicInheritanceDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Fall-2019-COMP-2150" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fall-2019-COMP-2150" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kbrleson" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture3" type="462c0819:PsiDirectoryNode" />
+              <item name="supplemental" type="462c0819:PsiDirectoryNode" />
+              <item name="Cartoon.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Fall-2019-COMP-2150" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fall-2019-COMP-2150" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kbrleson" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture3" type="462c0819:PsiDirectoryNode" />
+              <item name="supplemental" type="462c0819:PsiDirectoryNode" />
+              <item name="DynamicBindingDemo2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Fall-2019-COMP-2150" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fall-2019-COMP-2150" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kbrleson" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture3" type="462c0819:PsiDirectoryNode" />
+              <item name="supplemental" type="462c0819:PsiDirectoryNode" />
+              <item name="PolyDemosimple.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Fall-2019-COMP-2150" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fall-2019-COMP-2150" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kbrleson" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture3" type="462c0819:PsiDirectoryNode" />
+              <item name="BasicInheritanceDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Fall-2019-COMP-2150" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fall-2019-COMP-2150" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kbrleson" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture3" type="462c0819:PsiDirectoryNode" />
+              <item name="ConstructorChainDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Fall-2019-COMP-2150" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fall-2019-COMP-2150" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kbrleson" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture3" type="462c0819:PsiDirectoryNode" />
+              <item name="ConstructorNoSuper.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Fall-2019-COMP-2150" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fall-2019-COMP-2150" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kbrleson" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture3" type="462c0819:PsiDirectoryNode" />
+              <item name="PolyDemosimple.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Fall-2019-COMP-2150" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fall-2019-COMP-2150" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kbrleson" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture3" type="462c0819:PsiDirectoryNode" />
+              <item name="TestOverloadingBetweenClass.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Fall-2019-COMP-2150" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fall-2019-COMP-2150" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kbrleson" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fall-2019-COMP-2150" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fall-2019-COMP-2150" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kbrleson" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture5" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCircleWithCustomException.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -305,35 +411,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Action">
+  <component name="RunManager" selected="Application.TestCircleWithCustomException">
     <configuration name="Action" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mem.kbrleson.assignment4.Action" />
-      <module name="COMP-2150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mem.kbrleson.assignment4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mem.kbrleson.assignment4.Question1" />
-      <module name="COMP-2150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mem.kbrleson.assignment4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mem.kbrleson.assignment4.Question2" />
       <module name="COMP-2150" />
       <extension name="coverage">
         <pattern>
@@ -405,6 +485,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Question5 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mem.kbrleson.assignment4.Question5" />
+      <module name="COMP-2150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mem.kbrleson.assignment4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Question5" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="mem.kbrleson.assignment1.Question5" />
       <module name="COMP-2150" />
@@ -432,25 +525,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCircleWithCustomException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mem.kbrleson.lecture5.TestCircleWithCustomException" />
+      <module name="COMP-2150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mem.kbrleson.lecture5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Question2" />
       <item itemvalue="Application.Question3" />
       <item itemvalue="Application.Question4" />
       <item itemvalue="Application.Question6" />
       <item itemvalue="Application.Question5" />
-      <item itemvalue="Application.Question1" />
-      <item itemvalue="Application.Question2 (1)" />
       <item itemvalue="Application.Question3 (1)" />
       <item itemvalue="Application.Question4 (1)" />
       <item itemvalue="Application.Action" />
+      <item itemvalue="Application.Question5 (1)" />
+      <item itemvalue="Application.TestCircleWithCustomException" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCircleWithCustomException" />
+        <item itemvalue="Application.Question5 (1)" />
         <item itemvalue="Application.Action" />
         <item itemvalue="Application.Question4 (1)" />
         <item itemvalue="Application.Question3 (1)" />
-        <item itemvalue="Application.Question2 (1)" />
-        <item itemvalue="Application.Question1" />
       </list>
     </recent_temporary>
   </component>
@@ -471,6 +577,8 @@
       <workItem from="1569874566657" duration="6322000" />
       <workItem from="1569881756696" duration="2938000" />
       <workItem from="1570035843724" duration="2049000" />
+      <workItem from="1570041781230" duration="881000" />
+      <workItem from="1570641728991" duration="533000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1568010581720</created>
@@ -521,23 +629,31 @@
       <option name="project" value="LOCAL" />
       <updated>1569884682411</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Finished assignment 4">
+      <created>1570042464844</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1570042464844</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38073000" />
+    <option name="totallyTimeSpent" value="39487000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="813" y="23" width="1107" height="1108" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1108" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25682032" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14978679" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Application Servers" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956952" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329" />
@@ -575,175 +691,10 @@
     <MESSAGE value="Adds assignment 2" />
     <MESSAGE value="Adds the lab solutions" />
     <MESSAGE value="Adds assignment 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds assignment 3" />
+    <MESSAGE value="Finished assignment 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished assignment 4" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/log/1568003105_ruby-2.4.0/gemset.pristine-ruby-2.4.0.log" />
-    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/tmpdir.rb" />
-    <entry file="file://$PROJECT_DIR$/helpers/zip_file_generator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.4.0/gems/artii-2.1.2/lib/artii/base.rb" />
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.4.0/gems/artii-2.1.2/lib/artii.rb" />
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.4.0/gems/artii-2.1.2/lib/artii/cli.rb" />
-    <entry file="file://$PROJECT_DIR$/.rubocop.yml" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="383">
-            <caret line="25" selection-start-line="25" selection-end-line="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question1.java" />
-    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question1/Substances.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="40" column="84" selection-start-line="40" selection-start-column="84" selection-end-line="40" selection-end-column="84" />
-          <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/ParkingMeter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment1/Question5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment1/Question4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" selection-start-line="8" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment1/Question3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-502">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question1/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment1/Question2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment1/Question6/GroceryList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment1/Question6/TestGroceryList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="100" column="33" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/ParkingTicket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/PoliceOfficer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
-          <folding>
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="28" selection-start-line="28" selection-end-line="29" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment1/Question6/GroceryItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="29" column="90" selection-start-line="29" selection-start-column="90" selection-end-line="29" selection-end-column="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="863" selection-start-line="863" selection-end-line="863" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment2/Question2/ParkedCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lab1/ItemToPurchase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -894,41 +845,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question2.java">
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="20" />
           <folding>
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#0#681#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment4/interfacesQ4/InterfaceTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        <state relative-caret-position="21">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -939,45 +869,265 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question1.java">
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment4/interfacesQ4/InterfaceTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#680#0" expanded="true" />
-            <element signature="e#97#98#0" expanded="true" />
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="42">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state>
           <folding>
-            <element signature="e#0#976#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+        <state relative-caret-position="21">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/assignment4/Question2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture5/CircleWithException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture5/DivideByZeroWithExceptionHandling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
-            <element signature="e#1670#1671#0" expanded="true" />
-            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#0#2100#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture5/Quotient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture5/QuotientWithException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture5/QuotientWithIf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture5/QuotientWithMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture5/TestCircleWithException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture5/TestCircleWithCustomException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/PolyDemosimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/TestOverloadingBetweenClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#612#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/BasicInheritanceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#1749#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/ConstructorChainDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/ConstructorNoSuper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#976#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/BasicInheritance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-215">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/BasicInheritanceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#1749#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/Cartoon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#641#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/DynamicBindingDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/FieldInheritanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/FieldSub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/PolyDemosimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/TestD11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/TestOverrideBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/TestOverrideDerived.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/supplemental/TestOverrideInheritDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mem/kbrleson/lecture3/PolymorphismDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
