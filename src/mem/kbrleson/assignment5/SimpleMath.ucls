@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
-  associations="true" dependencies="false" nesting-relationships="true">  
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="mem.kbrleson.assignment5.SimpleMath" project="Fall-2019-COMP-2150" 
+    file="/Fall-2019-COMP-2150/src/mem/kbrleson/assignment5/SimpleMath.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="155" width="297" x="159" y="190"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="mem.kbrleson.assignment5.InvalidOperatorException" project="Fall-2019-COMP-2150" 
+    file="/Fall-2019-COMP-2150/src/mem/kbrleson/assignment5/SimpleMath.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="83" width="201" x="496" y="190"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="3">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
