@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74981944-1e5b-4508-ac56-fa212a68398a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment6/Question1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment6/Question2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment6/Question3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment6/Question4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment6/Question5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment6/Question6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment7/TestDoublyLinkedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment7/linked_lists/IMyDoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment7/linked_lists/MyDoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment7/linked_lists/MySlowDoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment7/misc/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment7/misc/ListNodePlayground.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,12 +46,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>question6</find>
-      <find>fight</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -78,12 +72,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="mem.kbrleson.assignment7" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/mem/kbrleson/assignment7" />
       <recent name="$PROJECT_DIR$/src/mem/kbrleson/assignment6" />
       <recent name="$PROJECT_DIR$/src/mem/kbrleson/assignment5" />
       <recent name="$PROJECT_DIR$/src/mem/kbrleson/assignment3" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Helpers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -98,7 +95,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Question6 (1)">
+  <component name="RunManager">
+    <configuration name="ListNodePlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mem.kbrleson.assignment7.misc.ListNodePlayground" />
+      <module name="COMP-2150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mem.kbrleson.assignment7.misc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question1And2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mem.kbrleson.assignment7.misc.Question1And2" />
+      <module name="COMP-2150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mem.kbrleson.assignment7.misc.Question1And2" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Question2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="mem.kbrleson.assignment1.Question2" />
       <module name="COMP-2150" />
@@ -128,19 +151,6 @@
     </configuration>
     <configuration name="Question3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mem.kbrleson.assignment6.Question3" />
-      <module name="COMP-2150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mem.kbrleson.assignment6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mem.kbrleson.assignment6.Question4" />
       <module name="COMP-2150" />
       <extension name="coverage">
         <pattern>
@@ -225,25 +235,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestDoublyLinkedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mem.kbrleson.assignment7.TestDoublyLinkedLists" />
+      <module name="COMP-2150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mem.kbrleson.assignment7.misc.Question1And2" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Question2" />
       <item itemvalue="Application.Question3" />
       <item itemvalue="Application.Question4" />
       <item itemvalue="Application.Question6" />
       <item itemvalue="Application.Question5" />
       <item itemvalue="Application.Question2" />
-      <item itemvalue="Application.Question3 (1)" />
-      <item itemvalue="Application.Question4 (1)" />
       <item itemvalue="Application.Question5 (1)" />
       <item itemvalue="Application.Question6 (1)" />
+      <item itemvalue="Application.Question1And2" />
+      <item itemvalue="Application.TestDoublyLinkedLists" />
+      <item itemvalue="Application.ListNodePlayground" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestDoublyLinkedLists" />
+        <item itemvalue="Application.ListNodePlayground" />
+        <item itemvalue="Application.Question1And2" />
         <item itemvalue="Application.Question6 (1)" />
         <item itemvalue="Application.Question5 (1)" />
-        <item itemvalue="Application.Question4 (1)" />
-        <item itemvalue="Application.Question3 (1)" />
-        <item itemvalue="Application.Question2" />
       </list>
     </recent_temporary>
   </component>
@@ -269,6 +292,10 @@
       <workItem from="1571365367956" duration="3501000" />
       <workItem from="1572835937719" duration="2422000" />
       <workItem from="1572906885876" duration="1788000" />
+      <workItem from="1573072524967" duration="660000" />
+      <workItem from="1573775357486" duration="4093000" />
+      <workItem from="1573866052942" duration="2072000" />
+      <workItem from="1573967953009" duration="3080000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1568010581720</created>
