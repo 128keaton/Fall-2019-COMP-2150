@@ -7,13 +7,9 @@ public class MyDoublyLinkedList<E> implements IMyDoublyLinkedList<E> {
     private Node<E> head, tail;
 
     // Constructors
-    public MyDoublyLinkedList() {
-        head = tail = null;
-    }
 
     public MyDoublyLinkedList(E[] objects) {
-        for (int i = 0; i < objects.length; i++)
-            add(objects[i]);
+        for (E object : objects) add(object);
     }
 
     // Methods
@@ -24,25 +20,25 @@ public class MyDoublyLinkedList<E> implements IMyDoublyLinkedList<E> {
     }
 
     public void addFirst(E e) {
-        Node<E> newNode = new Node<E>(e); // Create a new node
+        Node<E> newNode = new Node<>(e); // Create a new node
         if (tail == null)                // if empty list
             head = tail = newNode;        // new node is the only node in list
         else {
+            head.previous = newNode;
             newNode.next = head;        // link the new node with the head
-           	newNode.next.previous = newNode;
             head = newNode;            // head points to the new node
         }
         size++;
     }
 
     public void addLast(E e) {
-        Node<E> newNode = new Node<E>(e); // Create a new for element e
+        Node<E> newNode = new Node<>(e); // Create a new for element e
         if (tail == null)            // if empty list
             head = tail = newNode;    // new node is the only node in list
         else {
-            tail.next = newNode;    // Link the new with the last node
-			newNode.previous = tail;
-			tail = tail.next;
+            tail.next = newNode;     // Link the new with the last node
+            newNode.previous = tail;
+            tail = tail.next;
         }
         size++;
     }
@@ -53,15 +49,11 @@ public class MyDoublyLinkedList<E> implements IMyDoublyLinkedList<E> {
         else if (index == 0) addFirst(e);
         else if (index == size) addLast(e);
         else {
-            Node<E> newNode = new Node<E>(e);
             Node<E> current = getNodeAt(index);
+            Node<E> newNode = new Node<>(e, current, current.next);
 
-            newNode.next = current.next;    // Link the new node to element @ index
             current.next.previous = newNode;
-
-            current.next = newNode;        // Link element @ index-1 to newNode
-            newNode.previous = current;
-
+            current.next = newNode;
             size++;
         }
     }
@@ -96,6 +88,7 @@ public class MyDoublyLinkedList<E> implements IMyDoublyLinkedList<E> {
             tail.next = null;
             temp.previous = null;
             size--;
+
             return temp.element;        // return last
         }
     }
@@ -112,6 +105,7 @@ public class MyDoublyLinkedList<E> implements IMyDoublyLinkedList<E> {
             toRemove.previous.next = toRemove.next;
             toRemove.next.previous = toRemove.previous;
             size--;
+
             return toRemove.element;
         }
     }
@@ -170,39 +164,37 @@ public class MyDoublyLinkedList<E> implements IMyDoublyLinkedList<E> {
     public String toString() {
         StringBuilder result = new StringBuilder("[");
 
-        Node<E> current = head;
-        if (current != null) {
-            for (int i = 0; i < size; i++) {
+        Node current = head;
+        int lastIndex = size - 1;
+        for (int i = 0; i < size; i++) {
+            if (current != null) {
                 result.append(current.element);
                 current = current.next;
-                if (current != null)
+                if (i < lastIndex) {
                     result.append(", ");    // Separate two elements with a comma
-                else
-                    result.append("]");    // Insert the closing ] in the string
+                }
             }
-        } else {
-            result.append("(empty)]");
         }
 
+        result.append("]");    // Insert the closing ] in the string
         return result.toString();
     }
 
     public String toReversedString() {
         StringBuilder result = new StringBuilder("[");
 
-        Node<E> current = tail;
-        if (current != null) {
-            for (int i = (size - 1); i > -1; i--) {
+        Node current = tail;
+        int lastIndex = size - 1;
+        for (int i = lastIndex; i > -1; i--) {
+            if (current != null) {
                 result.append(current.element);
-                current = current.previous;
-                if (current != null)
+                current = current.next;
+                if (i > 0) {
                     result.append(", ");    // Separate two elements with a comma
-                else
-                    result.append("]");    // Insert the closing ] in the string
+                }
             }
-        } else {
-            result.append("(empty)]");
         }
+        result.append("]");    // Insert the closing ] in the string
 
         return result.toString();
     }
@@ -210,6 +202,10 @@ public class MyDoublyLinkedList<E> implements IMyDoublyLinkedList<E> {
     //*** CHECKING ***
     public int size() {
         return size;
+    }
+
+    public String listType() {
+        return "Refactored";
     }
 
     public boolean contains(E e) {
@@ -251,15 +247,15 @@ public class MyDoublyLinkedList<E> implements IMyDoublyLinkedList<E> {
     }
 
     private Node<E> getNodeAt(int index) {
-        Node nodeAtIndex;
+        Node<E> nodeAtIndex;
         int i;
-        if (index < size() / 2) {
+        if (index < size / 2) {
             for (i = 0, nodeAtIndex = head; i < index; i++) {
-				nodeAtIndex = nodeAtIndex.next;
+                nodeAtIndex = nodeAtIndex.next;
             }
         } else {
-            for (i = size() + 1, nodeAtIndex = tail; i > index; i--) {
-				nodeAtIndex = nodeAtIndex.previous;
+            for (i = size + 1, nodeAtIndex = tail; i > index; i--) {
+                nodeAtIndex = nodeAtIndex.previous;
             }
         }
 
@@ -270,10 +266,16 @@ public class MyDoublyLinkedList<E> implements IMyDoublyLinkedList<E> {
     private static class Node<E> {
         E element;
         Node<E> next;
-		Node<E> previous;
+        Node<E> previous;
 
-		public Node(E e) {
+        Node(E e) {
             element = e;
+        }
+
+        Node(E e, Node<E> previous, Node<E> next){
+            this.previous = previous;
+            this.next = next;
+            this.element = e;
         }
     }
 }

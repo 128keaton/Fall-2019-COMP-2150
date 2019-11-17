@@ -22,5 +22,6 @@ public interface IMyDoublyLinkedList<E> {
     E get(int index);
     E set(int index, E e);
     String toReversedString();
+    String listType();
     boolean remove(E e);
 }

@@ -200,6 +200,10 @@ public class MySlowDoublyLinkedList<E> implements IMyDoublyLinkedList<E> {
         return size;
     }
 
+    public String listType() {
+        return "Original";
+    }
+
     public boolean contains(E e) {
         Node<E> current = head;
         for (int i = 0; i < size; i++) {

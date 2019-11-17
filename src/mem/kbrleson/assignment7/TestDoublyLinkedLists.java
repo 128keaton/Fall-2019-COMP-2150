@@ -14,18 +14,20 @@ public class TestDoublyLinkedLists {
         double originalTime, refactoredTime;
         String[] array = {"A", "B", "A", "A"};
 
-        System.out.println("--[Improved MyDoublyLinkedList Test Started]--");
-        refactoredTime = runTest(new MyDoublyLinkedList<>(array));
-        System.out.println("--[Improved MyDoublyLinkedList Test Finished]--");
+        MySlowDoublyLinkedList<String> originalDoublyLinkedList = new MySlowDoublyLinkedList<>(array);
+        MyDoublyLinkedList<String> refactoredLinkedList = new MyDoublyLinkedList<>(array);
 
-        System.out.println("\n--[Original MyDoublyLinkedList Test Started]--");
-        originalTime = runTest(new MySlowDoublyLinkedList<>(array));
-        System.out.println("--[Original MyDoublyLinkedList Test Finished]--");
+        System.out.println("--[" + originalDoublyLinkedList.listType() + " MyDoublyLinkedList Test Started]--");
+        originalTime = runTest(originalDoublyLinkedList);
+        System.out.println("--["+ originalDoublyLinkedList.listType() + " MyDoublyLinkedList Test Finished]--");
+
+        System.out.println("\n--[" + refactoredLinkedList.listType() + " MyDoublyLinkedList Test Started]--");
+        refactoredTime = runTest(refactoredLinkedList);
+        System.out.println("--[" + refactoredLinkedList.listType() + " MyDoublyLinkedList Test Finished]--");
 
         System.out.println("\n--[Results]--");
 
-        double timeDifference = refactoredTime - originalTime;
-
+        double timeDifference = (originalTime - refactoredTime) / 1000000.0 ;
         if (timeDifference > 0) {
             System.out.println("Testing showed the refactored MyDoubleLinkedList performed better than the original MyDoublyLinkedList by " + timeDifference + " milliseconds");
         } else {
@@ -34,10 +36,11 @@ public class TestDoublyLinkedLists {
 
     }
 
-    private static double runTest(IMyDoublyLinkedList list) {
+    private static double runTest(IMyDoublyLinkedList<String> list) {
         long startTime = System.nanoTime();
+        long endTime, duration;
 
-        System.out.printf("%-32s%-10s\n", "Initialized with {A,B,A,A}:", list);
+        System.out.printf("%-32s%-10s\n", "Initialized with:", list);
 
         testAdding(list);
         testGetting(list);
@@ -45,11 +48,9 @@ public class TestDoublyLinkedLists {
         testRemoving(list);
         testChecking(list);
 
-
-        long endTime = System.nanoTime();
-        long duration = endTime - startTime;
-        double runTime = duration / 1000000.0;
-        System.out.println("\n DURATION = " + runTime + " msecs ");
+        endTime = System.nanoTime();
+        duration = endTime - startTime;
+        System.out.println("\n DURATION = " + duration / 1000000.0 + " msecs ");
         System.out.printf("\n%-32s%-10s\n", "ToString: ", list);
         System.out.printf("%-32s%-10s\n", "ToReversedString: ", list.toReversedString());
 
@@ -64,7 +65,7 @@ public class TestDoublyLinkedLists {
         list.add(Xnum, "X");
         System.out.println(list);
 
-        return runTime;
+        return duration;
     }
 
     private static void testAdding(IMyDoublyLinkedList<String> list) {
@@ -106,8 +107,8 @@ public class TestDoublyLinkedLists {
         System.out.printf("\n%-32s%-10s\n", "Checking: ", list);
         System.out.printf("%-32s%-10s\n", "  - Contains 'A'? ", list.contains("A"));
         System.out.printf("%-32s%-10s\n", "  - Contains 'Z'? ", list.contains("Z"));
-        System.out.printf("%-32s%-10s\n", "  - First occurence of 'A' @ ", list.indexOf("A"));
-        System.out.printf("%-32s%-10s\n", "  - Last occurence of 'A' @ ", list.lastIndexOf("A"));
+        System.out.printf("%-32s%-10s\n", "  - First occurrence of 'A' @ ", list.indexOf("A"));
+        System.out.printf("%-32s%-10s\n", "  - Last occurrence of 'A' @ ", list.lastIndexOf("A"));
         System.out.printf("%-32s%-10s\n", "  - First index of 'Z' @", list.indexOf("Z"));
         System.out.printf("%-32s%-10s\n", "  - Last index of 'Z' @", list.lastIndexOf("Z"));
     }
