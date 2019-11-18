@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74981944-1e5b-4508-ac56-fa212a68398a" name="Default Changelist" comment="">
+    <list default="true" id="74981944-1e5b-4508-ac56-fa212a68398a" name="Default Changelist" comment="Fixes assignment 7">
       <change afterPath="$PROJECT_DIR$/.idea/azureSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mem/kbrleson/assignment7/TestDoublyLinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment7/TestDoublyLinkedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mem/kbrleson/assignment7/linked_lists/IMyDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment7/linked_lists/IMyDoublyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mem/kbrleson/assignment7/linked_lists/MyDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment7/linked_lists/MyDoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mem/kbrleson/assignment7/linked_lists/MySlowDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment7/linked_lists/MySlowDoublyLinkedList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +91,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestDoublyLinkedLists">
     <configuration name="ListNodePlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mem.kbrleson.assignment7.misc.ListNodePlayground" />
       <module name="COMP-2150" />
@@ -295,7 +291,9 @@
       <workItem from="1573072524967" duration="660000" />
       <workItem from="1573775357486" duration="4093000" />
       <workItem from="1573866052942" duration="2072000" />
-      <workItem from="1573967953009" duration="6273000" />
+      <workItem from="1573967953009" duration="6347000" />
+      <workItem from="1574102593685" duration="493000" />
+      <workItem from="1574103428205" duration="85000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1568010581720</created>
@@ -360,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573971061235</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fixes assignment 7">
+      <created>1573974340923</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573974340923</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +393,8 @@
     <MESSAGE value="Adds assignment 3" />
     <MESSAGE value="Finished assignment 4" />
     <MESSAGE value="Finished assignment 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished assignment 7" />
+    <MESSAGE value="Fixes assignment 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes assignment 7" />
   </component>
   <component name="masterDetails">
     <states>

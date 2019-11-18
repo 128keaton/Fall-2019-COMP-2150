@@ -188,7 +188,7 @@ public class MyDoublyLinkedList<E> implements IMyDoublyLinkedList<E> {
         for (int i = lastIndex; i > -1; i--) {
             if (current != null) {
                 result.append(current.element);
-                current = current.next;
+                current = current.previous;
                 if (i > 0) {
                     result.append(", ");    // Separate two elements with a comma
                 }
@@ -242,8 +242,7 @@ public class MyDoublyLinkedList<E> implements IMyDoublyLinkedList<E> {
     //*** HELPER METHODS ***
     private void checkIndex(int idx) {
         if (idx < 0 || idx >= size)
-            throw new IndexOutOfBoundsException("Index: " + idx + ", Size: "
-                    + size);
+            throw new IndexOutOfBoundsException("Index: " + idx + ", Size: " + size);
     }
 
     private Node<E> getNodeAt(int index) {
