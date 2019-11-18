@@ -66,9 +66,10 @@ public class MyDoublyLinkedList<E> implements IMyDoublyLinkedList<E> {
             Node<E> temp = head;    // element will be returned
             head = head.next;
             head.previous = null;
-            size--;
             if (head == null)        // if list becomes empty
                 tail = null;
+
+            size--;
             return temp.element;    // return the removed element
         }
     }
