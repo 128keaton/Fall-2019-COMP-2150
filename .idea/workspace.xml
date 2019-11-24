@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74981944-1e5b-4508-ac56-fa212a68398a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment8/Question5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment8/Question6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mem/kbrleson/assignment7/linked_lists/MyDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment7/linked_lists/MyDoublyLinkedList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="ComposerSettings">
     <execution>
@@ -43,6 +47,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1T8Jl0AFawuGNqtbZYgNkIZQsGn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -90,7 +97,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestDoublyLinkedLists">
+  <component name="RunManager" selected="Application.Question6 (2)">
     <configuration name="ListNodePlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mem.kbrleson.assignment7.misc.ListNodePlayground" />
       <module name="COMP-2150" />
@@ -177,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question5 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mem.kbrleson.assignment6.Question5" />
+    <configuration name="Question5 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mem.kbrleson.assignment8.Question5" />
       <module name="COMP-2150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mem.kbrleson.assignment6.*" />
+          <option name="PATTERN" value="mem.kbrleson.assignment8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,12 +217,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question6 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mem.kbrleson.assignment6.Question6" />
+    <configuration name="Question6 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mem.kbrleson.assignment8.Question6" />
       <module name="COMP-2150" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mem.kbrleson.assignment6.*" />
+          <option name="PATTERN" value="mem.kbrleson.assignment8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,19 +256,19 @@
       <item itemvalue="Application.Question6" />
       <item itemvalue="Application.Question5" />
       <item itemvalue="Application.Question2" />
-      <item itemvalue="Application.Question5 (1)" />
-      <item itemvalue="Application.Question6 (1)" />
       <item itemvalue="Application.Question1And2" />
       <item itemvalue="Application.TestDoublyLinkedLists" />
       <item itemvalue="Application.ListNodePlayground" />
+      <item itemvalue="Application.Question5 (2)" />
+      <item itemvalue="Application.Question6 (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Question6 (2)" />
+        <item itemvalue="Application.Question5 (2)" />
         <item itemvalue="Application.TestDoublyLinkedLists" />
         <item itemvalue="Application.ListNodePlayground" />
         <item itemvalue="Application.Question1And2" />
-        <item itemvalue="Application.Question6 (1)" />
-        <item itemvalue="Application.Question5 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -293,6 +300,7 @@
       <workItem from="1573967953009" duration="6347000" />
       <workItem from="1574102593685" duration="493000" />
       <workItem from="1574103428205" duration="144000" />
+      <workItem from="1574627672731" duration="1260000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1568010581720</created>
