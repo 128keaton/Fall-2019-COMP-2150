@@ -16,6 +16,7 @@ public class Question6 {
 
         doThis(queueOne);
 
+
         Queue<Integer> queueTwo = new LinkedList<>();;
         queueTwo.add(42);
         queueTwo.add(-3);
@@ -25,7 +26,6 @@ public class Question6 {
         queueTwo.add(71);
 
         doThis(queueTwo);
-
     }
     
     public static void doThis(Queue<Integer> q) {
