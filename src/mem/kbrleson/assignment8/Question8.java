@@ -20,7 +20,7 @@ public class Question8 {
         System.out.println(stack);
     }
 
-    // This code makes an infinite loop
+    // The original code makes an infinite loop
     private static void removeEvenIntegersIncorrectly(Stack<Integer> s1) {
         while (!s1.isEmpty()) {
             int n = s1.pop();
