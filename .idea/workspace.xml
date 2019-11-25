@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74981944-1e5b-4508-ac56-fa212a68398a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment8/Question7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment8/Question8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment8/Question9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mem/kbrleson/assignment8/Question5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment8/Question5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mem/kbrleson/assignment8/Question6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment8/Question6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mem/kbrleson/assignment8/Question7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment8/Question7.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -381,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574103536556</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Finishes assignment 8">
+      <created>1574649150540</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1574649150540</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +417,8 @@
     <MESSAGE value="Finished assignment 7" />
     <MESSAGE value="Fixes assignment 7" />
     <MESSAGE value="Fixes assignment 7's 'toReversedString' function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixes assignment 7's 'toReversedString' function" />
+    <MESSAGE value="Finishes assignment 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishes assignment 8" />
   </component>
   <component name="masterDetails">
     <states>

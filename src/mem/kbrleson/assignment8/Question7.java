@@ -1,26 +1,22 @@
 package mem.kbrleson.assignment8;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class Question7 {
     public static void main(String[] args) {
-        Queue<Integer> q = new LinkedList<>();
-        q.add(1);
-        q.add(2);
-        q.add(3);
-        q.add(99);
-        q.add(-4);
-        q.add(6);
-
+        ArrayList<Integer> integers = new ArrayList<>(Arrays.asList(1, 2, 3, 99, -4, 6));
+        Queue<Integer> queue = new LinkedList<>(integers);
 
         System.out.println("Original list");
-        System.out.println(q);
+        System.out.println(queue);
 
-        System.out.println("largest = " + getLargest(q));
+        System.out.println("largest = " + getLargest(queue));
 
         System.out.println("After finding maxi, the list is");
-        System.out.println(q);
+        System.out.println(queue);
     }
 
     // The original code modifies the queue which is not what we want
@@ -33,6 +29,7 @@ public class Question7 {
         return largest;
     }
 
+    // The CORRECT way to get the largest from a queue without modifying the original queue
     private static int getLargest(Queue<Integer> queue) {
         // Make a copy of the original queue
         Queue<Integer> q = new LinkedList<>(queue);

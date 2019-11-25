@@ -1,34 +1,22 @@
 package mem.kbrleson.assignment8;
 
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
 public class Question6 {
     public static void main(String[] args) {
-        Queue<Integer> queueOne = new LinkedList<>();
-        queueOne.add(1);
-        queueOne.add(2);
-        queueOne.add(3);
-        queueOne.add(4);
-        queueOne.add(5);
-        queueOne.add(6);
+        // Setup both Queues with integers
+        ArrayList<Integer> integersOne = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6));
+        Queue<Integer> queueOne = new LinkedList<>(integersOne);
 
         doThis(queueOne);
 
-
-        Queue<Integer> queueTwo = new LinkedList<>();;
-        queueTwo.add(42);
-        queueTwo.add(-3);
-        queueTwo.add(4);
-        queueTwo.add(15);
-        queueTwo.add(9);
-        queueTwo.add(71);
+        ArrayList<Integer> integersTwo = new ArrayList<>(Arrays.asList(42, -3, 4, 15, 9, 71));
+        Queue<Integer> queueTwo = new LinkedList<>(integersTwo);
 
         doThis(queueTwo);
     }
-    
-    public static void doThis(Queue<Integer> q) {
+
+    private static void doThis(Queue<Integer> q) {
         Stack<Integer> s = new Stack<>();
         int size = q.size();
         for (int i = 0; i < size; i++) {
@@ -41,5 +29,4 @@ public class Question6 {
         }
         System.out.println(q + " " + s);
     }
-
 }
