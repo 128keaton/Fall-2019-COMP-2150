@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="74981944-1e5b-4508-ac56-fa212a68398a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mem/kbrleson/assignment8/Question5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment8/Question5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mem/kbrleson/assignment8/Question6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment8/Question6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mem/kbrleson/assignment8/Question7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment8/Question7.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -387,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574649150540</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Finishing touches on a few questions">
+      <created>1574649476245</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1574649476245</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +423,8 @@
     <MESSAGE value="Fixes assignment 7" />
     <MESSAGE value="Fixes assignment 7's 'toReversedString' function" />
     <MESSAGE value="Finishes assignment 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishes assignment 8" />
+    <MESSAGE value="Finishing touches on a few questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing touches on a few questions" />
   </component>
   <component name="masterDetails">
     <states>

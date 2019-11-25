@@ -35,6 +35,7 @@ public class Question7 {
         Queue<Integer> q = new LinkedList<>(queue);
         int largest = q.remove();
         q.add(largest);
+
         for(int i=0; i < q.size(); i++) {
             int current = q.remove();
             largest = Math.max(largest, current);
