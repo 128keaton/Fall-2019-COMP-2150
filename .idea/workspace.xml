@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74981944-1e5b-4508-ac56-fa212a68398a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment8/Assignment8_BigO_StackQueue_Sort_Keaton_Burleson.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment9/Assign9_3SD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mem/kbrleson/assignment8/Question8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment8/Question8.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,11 +78,11 @@
       <recent name="mem.kbrleson.assignment7" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/mem/kbrleson/assignment8" />
       <recent name="$PROJECT_DIR$/src/mem/kbrleson/assignment7" />
       <recent name="$PROJECT_DIR$/src/mem/kbrleson/assignment6" />
       <recent name="$PROJECT_DIR$/src/mem/kbrleson/assignment5" />
       <recent name="$PROJECT_DIR$/src/mem/kbrleson/assignment3" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -96,7 +97,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Question9">
+  <component name="RunManager" selected="Application.Assign9_3SD">
+    <configuration name="Assign9_3SD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mem.kbrleson.assignment9.Assign9_3SD" />
+      <module name="COMP-2150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mem.kbrleson.assignment9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Question2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="mem.kbrleson.assignment1.Question2" />
       <module name="COMP-2150" />
@@ -150,19 +164,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="mem.kbrleson.assignment3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question5 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mem.kbrleson.assignment8.Question5" />
-      <module name="COMP-2150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mem.kbrleson.assignment8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,19 +256,19 @@
       <item itemvalue="Application.Question6" />
       <item itemvalue="Application.Question5" />
       <item itemvalue="Application.Question2" />
-      <item itemvalue="Application.Question5 (2)" />
       <item itemvalue="Application.Question6 (2)" />
       <item itemvalue="Application.Question7" />
       <item itemvalue="Application.Question8" />
       <item itemvalue="Application.Question9" />
+      <item itemvalue="Application.Assign9_3SD" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Assign9_3SD" />
         <item itemvalue="Application.Question9" />
         <item itemvalue="Application.Question8" />
         <item itemvalue="Application.Question7" />
         <item itemvalue="Application.Question6 (2)" />
-        <item itemvalue="Application.Question5 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -300,6 +301,7 @@
       <workItem from="1574102593685" duration="493000" />
       <workItem from="1574103428205" duration="144000" />
       <workItem from="1574627672731" duration="1260000" />
+      <workItem from="1575237347660" duration="105000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1568010581720</created>
@@ -399,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574649548551</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Finishing touches on a few questions">
+      <created>1574649595198</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1574649595198</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
