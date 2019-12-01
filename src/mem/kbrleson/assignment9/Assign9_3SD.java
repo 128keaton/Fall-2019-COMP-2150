@@ -18,10 +18,10 @@ public class Assign9_3SD {
         BST<String> stree = new BST<>(sr);
 
 
-//		itree.mini();
-//		itree.maxi();
-//		stree.mini();
-//		stree.maxi();
+		itree.mini();
+		itree.maxi();
+		stree.mini();
+		stree.maxi();
 //
 
         // using recursive build-on traveral
@@ -335,24 +335,32 @@ public class Assign9_3SD {
             root = null;
             size = 0;
         }
-/***********************************************************
- * Add codes here to find and print the minimum
- *
- */
 
+        public void maxi() {
+            System.out.println("Largest is: " + this.findMaximum());
+        }
 
+        public E findMaximum() {
+            TreeNode<E> current = this.root;
+            while (current.right != null) {
+                current = current.right;
+            }
 
+            return current.element;
+        }
 
+        public void mini() {
+            System.out.println("Smallest is: " + this.findMinimum());
+        }
 
+        public E findMinimum() {
+            TreeNode<E> current = this.root;
+            while (current.left != null) {
+                current = current.left;
+            }
 
-
-
-
-
-        /*  **********************************************************
-         * Add codes here to find and print the maximum value
-         *
-         */
+            return current.element;
+        }
 
 
         /**
