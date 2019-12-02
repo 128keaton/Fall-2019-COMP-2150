@@ -8,41 +8,59 @@ import java.util.Stack;
 
 public class Assign9_3SD {
     public static void main(String[] args) {
-        Integer[] ar = {12, 43, 34, 12, 67, 23, 99, 23, 999, 23, 45, 67, 78, 123, 234, 456, 454, 23};
-        String[] sr = {"Kara", "Liam", "Jordon", "Amy", "Jon", "Sahil", "Jordon", "Amy", "Up", "down", "left", "right", "ringo", "paul", "Matthew", "Jon", "amy", "Chloe", "Tyler"};
+        Integer[] integers = {12, 43, 34, 12, 67, 23, 99, 23, 999, 23, 45, 67, 78, 123, 234, 456, 454, 23};
+        String[] strings = {"Kara", "Liam", "Jordon", "Amy", "Jon", "Sahil", "Jordon", "Amy", "Up", "down", "left", "right", "ringo", "paul", "Matthew", "Jon", "amy", "Chloe", "Tyler"};
 
-        BST<Integer> itree = new BST<>(ar);
-        BST<String> stree = new BST<>(sr);
+        BST<Integer> integerTree = new BST<>(integers);
+        BST<String> stringTree = new BST<>(strings);
 
-		System.out.print("itree: ");
-		itree.mini();
+        System.out.print("integerTree - ");
+        integerTree.mini();
 
-        System.out.print("itree: ");
-		itree.maxi();
+        System.out.print("integerTree - ");
+        integerTree.maxi();
 
-        System.out.print("stree: ");
-		stree.mini();
+        System.out.print("stringTree - ");
+        stringTree.mini();
 
-        System.out.print("stree: ");
-		stree.maxi();
-//
-        // using recursive build-on traveral
-        System.out.println("\n +++++++ using recursive build-in traversal method ");
-        System.out.println(" inorder: ");
-        itree.inorder();
-        System.out.println("\n using non-recursive traversal method");
-        // add codes here display results for pre and post order...
+        System.out.print("stringTree - ");
+        stringTree.maxi();
 
-        System.out.println(" inorder: ");
-        itree.nonRecursiveInorder();
-        stree.nonRecursiveInorder();
-        System.out.println("\n pre-order: ");
-        itree.nonRecursivePreorder();
-        stree.nonRecursivePreorder();
-        System.out.println("\n post-order: ");
-        itree.nonRecursivePostorder();
-        stree.nonRecursivePostorder();
+        long recursiveStartTime = System.nanoTime();
 
+        System.out.println("\n +++++++ Using recursive build-in traversal method ");
+        System.out.println("In Order: ");
+        integerTree.inorder();
+        stringTree.inorder();;
+
+        System.out.println("\nPre-Order:");
+        integerTree.preorder();
+        stringTree.preorder();
+
+        System.out.println("\nPost-Order:");
+        integerTree.postorder();
+        stringTree.postorder();
+
+        double recursiveDuration = (System.nanoTime() - recursiveStartTime) / 1000000.0;
+        System.out.println("\nRecursive Duration: " + recursiveDuration + " msecs");
+
+        long nonRecursiveStartTime = System.nanoTime();
+        System.out.println("\n ------ Using stack non-recursive method");
+
+        System.out.println("In Order: ");
+        integerTree.nonRecursiveInorder();
+        stringTree.nonRecursiveInorder();
+
+        System.out.println("\nPre-Order: ");
+        integerTree.nonRecursivePreorder();
+        stringTree.nonRecursivePreorder();
+
+        System.out.println("\nPost-Order:");
+        integerTree.nonRecursivePostorder();
+        stringTree.nonRecursivePostorder();
+
+        double nonRecursiveDuration = (System.nanoTime() - nonRecursiveStartTime) / 1000000.0;
+        System.out.println("\nNon-Recursive Duration: " + nonRecursiveDuration + " msecs");
     }
 
     /************* BST Class ***********************/
@@ -61,8 +79,7 @@ public class Assign9_3SD {
          * Create a binary search tree from an array of objects
          */
         public BST(E[] objects) {
-            for (int i = 0; i < objects.length; i++)
-                insert(objects[i]);
+            for (E object : objects) insert(object);
         }
 
         /************** Return true if the element is in the tree */
@@ -117,6 +134,7 @@ public class Assign9_3SD {
         /***** Inorder traversal from the root */
         public void inorder() {
             inorder(root);
+            System.out.println();
         }
 
         /**** Inorder traversal from a subtree */
@@ -131,6 +149,7 @@ public class Assign9_3SD {
         /**** Postorder traversal from the root */
         public void postorder() {
             postorder(root);
+            System.out.println();
         }
 
         /**
@@ -149,6 +168,7 @@ public class Assign9_3SD {
          */
         public void preorder() {
             preorder(root);
+            System.out.println();
         }
 
         /**
@@ -370,30 +390,24 @@ public class Assign9_3SD {
          */
         public void nonRecursiveInorder() {
             ArrayList<TreeNode<E>> list = new ArrayList<>();
-            Stack<TreeNode<E>> stack = new Stack<>();
+            Stack<TreeNode<E>> treeNodes = new Stack<>();
 
-            if (root == null)
-                return;
+            treeNodes.push(root);
 
-            stack.push(root);
-
-            while (!stack.isEmpty()) {
-                // use node to move up/down the tree.
-                TreeNode<E> node = (TreeNode<E>) (stack.peek());
-                // advance to left child until null and push( ) each node along the way
-                if (node.left != null && !list.contains(node.left)) {
-                    stack.push(node.left); // Add the left node to the stack
-
-                } else { // call to next node (pop() ) set to node.right
-                    stack.pop(); // Remove the node from the stack
-                    list.add(node);
-                    if (node.right != null) {
-                        stack.push(node.right); // Add the right node to the stack
+            while (!treeNodes.isEmpty()) {
+                TreeNode<E> treeNode = (treeNodes.peek());
+                if (treeNode.left != null && !list.contains(treeNode.left)) {
+                    treeNodes.push(treeNode.left);
+                } else {
+                    treeNodes.pop();
+                    list.add(treeNode);
+                    if (treeNode.right != null) {
+                        treeNodes.push(treeNode.right);
                     }
                 }
             }
-            for (int i = 0; i < list.size(); i++)
-                System.out.print(((TreeNode<E>) (list.get(i))).element + " ");
+
+            for (TreeNode<E> treeNode : list) System.out.print(treeNode.element + " ");
             System.out.println();
         }
 
@@ -401,21 +415,53 @@ public class Assign9_3SD {
          * Inorder traversal from the root
          */
         public void nonRecursivePreorder() {
-            // add codes here .......................
-            System.out.println(" Build me a pre-order non-recursively");
+            Stack<TreeNode<E>> treeNodes = new Stack<>();
+            treeNodes.push(this.root);
 
+            while (!treeNodes.empty()) {
+                TreeNode<E> currentNode = treeNodes.peek();
+                System.out.print(currentNode.element + " ");
+                treeNodes.pop();
 
+                if (currentNode.right != null) {
+                    treeNodes.push(currentNode.right);
+                }
+
+                if (currentNode.left != null) {
+                    treeNodes.push(currentNode.left);
+                }
+            }
+            System.out.println();
         }
 
         /**
          * Inorder traversal from the root
          */
         public void nonRecursivePostorder() {
+            Stack<TreeNode<E>> stack = new Stack<>();
+            TreeNode<E> currentNode = this.root;
+            stack.push(currentNode);
 
-            System.out.println(" Build me a post-order non-recursively");
+            while (!stack.isEmpty()) {
+                TreeNode<E> next = stack.peek();
 
+                boolean finishedSubtrees = (next.right == currentNode || next.left == currentNode);
+                boolean isLeaf = (next.left == null && next.right == null);
+                if (finishedSubtrees || isLeaf) {
+                    stack.pop();
+                    System.out.print(next.element + " ");
+                    currentNode = next;
+                } else {
+                    if (next.right != null) {
+                        stack.push(next.right);
+                    }
+                    if (next.left != null) {
+                        stack.push(next.left);
+                    }
+                }
+            }
 
+            System.out.println();
         }
-
     }
 }

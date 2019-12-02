@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74981944-1e5b-4508-ac56-fa212a68398a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/keatonburleson.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/keatonburleson.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mem/kbrleson/assignment9/Assign9_3SD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mem/kbrleson/assignment9/Assign9_3SD.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -299,7 +301,7 @@
       <workItem from="1574102593685" duration="493000" />
       <workItem from="1574103428205" duration="144000" />
       <workItem from="1574627672731" duration="1260000" />
-      <workItem from="1575237347660" duration="1432000" />
+      <workItem from="1575237347660" duration="3518000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1568010581720</created>
@@ -420,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575243916804</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Adds maxi/mini functions">
+      <created>1575249326371</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1575249326371</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
