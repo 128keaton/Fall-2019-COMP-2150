@@ -8,22 +8,24 @@ import java.util.Stack;
 
 public class Assign9_3SD {
     public static void main(String[] args) {
-
-
         Integer[] ar = {12, 43, 34, 12, 67, 23, 99, 23, 999, 23, 45, 67, 78, 123, 234, 456, 454, 23};
-        String[] sr = {"Kara", "Liam", "Jordon", "Amy", "Jon", "Sahil", "Jordon", "Amy", "Up", "down", "left", "right",
-                "ringo", "paul", "Matthew", "Jon", "amy", "Chloe", "Tyler"};
+        String[] sr = {"Kara", "Liam", "Jordon", "Amy", "Jon", "Sahil", "Jordon", "Amy", "Up", "down", "left", "right", "ringo", "paul", "Matthew", "Jon", "amy", "Chloe", "Tyler"};
 
         BST<Integer> itree = new BST<>(ar);
         BST<String> stree = new BST<>(sr);
 
-
+		System.out.print("itree: ");
 		itree.mini();
+
+        System.out.print("itree: ");
 		itree.maxi();
+
+        System.out.print("stree: ");
 		stree.mini();
+
+        System.out.print("stree: ");
 		stree.maxi();
 //
-
         // using recursive build-on traveral
         System.out.println("\n +++++++ using recursive build-in traversal method ");
         System.out.println(" inorder: ");
