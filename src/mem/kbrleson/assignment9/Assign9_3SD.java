@@ -214,7 +214,7 @@ public class Assign9_3SD {
          */
         public ArrayList<TreeNode<E>> path(E e) {
 
-            ArrayList<TreeNode<E>> list = new ArrayList<TreeNode<E>>();
+            ArrayList<TreeNode<E>> list = new ArrayList<>();
             TreeNode<E> current = root; // Start from the root
 
             while (current != null) {
